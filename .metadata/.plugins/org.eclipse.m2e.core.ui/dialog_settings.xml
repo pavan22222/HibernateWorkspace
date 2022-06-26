@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\WorkSpaces\HibernateWorkSpace\ManyToOne-OneToMany-BiDirectional-XML"/>
+			<item value="C:\Users\Pavan\git\Hibernate\WorkingWithGenerators-XmlBasedApproach"/>
+			<item value="C:\Users\Pavan\git\Hibernate\ConnectionPool-Standalone-CustomConnectionProvider-A-DBCP2"/>
+			<item value="C:\Users\Pavan\git\Hibernate\MergeMethodApp\src\main\java\com\vrnda\entity\Employee.java"/>
+			<item value="E:\WorkSpaces\HibernateWorkSpace\SaveMethodApp\src\main\java\com\vrnda\test\Test.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.infinite.StudentApp"/>
+			<item value="com.infinite.OneToMany_Anno_Uni"/>
+			<item value="com.infinite.ManyToMany_XML"/>
+			<item value="com.infinite.ManyToOneMapping_XML"/>
+			<item value="com.infinite.WorkingWithLargeObjects"/>
+			<item value="com.infinite.CollectionMappingAnno"/>
+			<item value="com.vrnda.QBC_CriteriaAPI"/>
+			<item value="com.vrnda.NativeSQLProj"/>
+			<item value="com.vrnda.HBProj_HQL"/>
+			<item value="com.vrnda.MIniProject_TomcatServer"/>
+			<item value="com.vrnda.TimeStamping_XmlApproach"/>
+			<item value="com.vrnda.Versioning_XmlApproach"/>
+		</list>
+		<list key="groupId">
+			<item value="com.infinite"/>
+			<item value="com.vrnda"/>
+		</list>
+		<list key="artifactId">
+			<item value="StudentApp"/>
+			<item value="OneToMany-Anno-Uni"/>
+			<item value="ManyToMany-XML"/>
+			<item value="ManyToOneMapping-XML"/>
+			<item value="WorkingWithLargeObjects"/>
+			<item value="CollectionMappingAnno"/>
+			<item value="QBC-CriteriaAPI"/>
+			<item value="NativeSQLProj"/>
+			<item value="HBProj-HQL"/>
+			<item value="MIniProject-TomcatServer"/>
+			<item value="TimeStamping-XmlApproach"/>
+			<item value="Versioning-XmlApproach"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

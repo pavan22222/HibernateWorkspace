@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HBProj-HQL2&apos; to &apos;HBProj-HQL-NamaedHQLQueries&apos;" description="Rename resource &apos;HBProj-HQL2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/HBProj-HQL2" name="HBProj-HQL-NamaedHQLQueries" stamp="1641265033877" updateReferences="true"/>
+</session>

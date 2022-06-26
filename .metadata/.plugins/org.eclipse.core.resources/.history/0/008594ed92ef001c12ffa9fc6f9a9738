@@ -1,0 +1,23 @@
+package com.infinite.repository;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
+
+import org.springframework.stereotype.Repository;
+
+import com.infinite.beans.Student;
+
+@Repository
+public class StudentRepository {
+	
+	@PersistenceContext
+	private EntityManager entityManager;
+	
+	public List<Student> getAllStudents(){
+		Query query=entityManager.createQuery("from Student", Student.class);
+		return query.getResultList();
+	}
+}

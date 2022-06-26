@@ -1,0 +1,8 @@
+package com.infinite.beans;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Department {
+
+}

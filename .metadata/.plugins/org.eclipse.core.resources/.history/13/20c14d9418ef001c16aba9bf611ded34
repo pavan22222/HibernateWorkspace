@@ -1,0 +1,19 @@
+package com.infinite.beans;
+
+import javax.persistence.Entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
+
+@AllArgsConstructor
+@Data
+@RequiredArgsConstructor
+@Entity
+public class Student {
+	private Integer id;
+	private String name;
+	private Integer age;
+	
+	
+}

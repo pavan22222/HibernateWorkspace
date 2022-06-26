@@ -1,0 +1,14 @@
+package com.infinite.service;
+
+import org.springframework.stereotype.Service;
+
+import com.infinite.repository.StudentRepository;
+
+@Service
+public class StudentService {
+
+	
+	private StudentRepository repository;
+	
+	
+}

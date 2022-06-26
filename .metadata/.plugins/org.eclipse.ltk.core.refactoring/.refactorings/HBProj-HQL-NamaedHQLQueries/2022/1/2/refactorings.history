@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Employee.hbm.xml&apos; to &apos;NativeSQLProj/src/main/java/com.vrnda.entity&apos;&#x0D;&#x0A;- Original project: &apos;HBProj-HQL-NamaedHQLQueries&apos;&#x0D;&#x0A;- Destination element: &apos;NativeSQLProj/src/main/java/com.vrnda.entity&apos;&#x0D;&#x0A;- Original element: &apos;Employee.hbm.xml&apos;" description="Copy file" destination="=NativeSQLProj/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.vrnda.entity" element1="src/main/java/com/vrnda/entity/Employee.hbm.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1641318422331" units="0" version="1.0"/>
+</session>

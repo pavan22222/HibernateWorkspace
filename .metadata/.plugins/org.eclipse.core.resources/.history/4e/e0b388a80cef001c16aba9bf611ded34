@@ -1,0 +1,23 @@
+package com.infinite.controller;
+
+import java.util.List;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.infinite.beans.Student;
+
+@RestController
+@RequestMapping("/student")
+public class StudentController {
+	
+	
+	@GetMapping("/students")
+	public ResponseEntity<List<Student>> getAllStudents(){
+		return new ResponseEntity<List<Student>>(List.of(new Student(1,"pavan",23),new Student(2, "Naveen", 34)), HttpStatus.ACCEPTED);
+	}
+	
+}

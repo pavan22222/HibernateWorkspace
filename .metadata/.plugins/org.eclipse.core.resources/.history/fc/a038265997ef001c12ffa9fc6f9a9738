@@ -1,0 +1,33 @@
+package com.infinite.beans;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.SequenceGenerator;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
+
+@AllArgsConstructor
+@Data
+@RequiredArgsConstructor
+@Entity
+public class Student {
+	@Id
+	@SequenceGenerator(name = "gen1", sequenceName = "SID", initialValue = 1, allocationSize = 100)
+	@GeneratedValue(generator = "gen1", strategy = GenerationType.SEQUENCE)
+	private Integer id;
+	@Column(length = 20)
+	private String name;
+	private Integer age;
+	
+	@OneToMany(orphanRemoval = true)
+	private List<Address> addresses;
+
+}

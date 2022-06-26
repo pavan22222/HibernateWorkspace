@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;ManyToMany-XML/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;ManyToOneMapping-XML&apos;&#x0D;&#x0A;- Destination element: &apos;ManyToMany-XML/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ManyToOneMapping-XML/src/main/java/com.infinite.util&#x0D;&#x0A;     ManyToOneMapping-XML/src/main/java/com.infinite.cfgs" description="Copy packages" destination="=ManyToMany-XML/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.infinite.util" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.infinite.cfgs" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1650950116875" version="1.0"/>
+</session>

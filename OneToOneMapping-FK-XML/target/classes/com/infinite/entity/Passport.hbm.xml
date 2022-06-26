@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+
+	<class name="com.infinite.entity.Passport">
+		<id name="passportId">
+			<generator class="sequence">
+				<param name="sequence_name">Shirt_Id</param>
+			</generator>
+		</id>
+		<property name="country"></property>
+		<property name="expiryDate" length="20"></property>
+		<many-to-one name="personDetails" class="com.infinite.entity.Person" unique="true" not-null="true" column="person_Id" cascade="all" lazy="proxy">
+		</many-to-one>
+	</class>
+
+
+</hibernate-mapping>

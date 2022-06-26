@@ -1,0 +1,18 @@
+package com.infinite.beans;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data
+@NoArgsConstructor
+public class Address {
+	
+	private String addrId;
+	private String doorNo;
+	private String colonyName;
+	private String distrcit;
+	private String state;
+}

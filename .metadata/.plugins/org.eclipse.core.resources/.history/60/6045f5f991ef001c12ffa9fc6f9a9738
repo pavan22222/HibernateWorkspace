@@ -1,0 +1,14 @@
+package com.infinite.beans;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+
+@Entity
+public class Department {
+	
+	@Id
+	@SequenceGenerator(name="department_generator",sequenceName = "com.infinite.generator.DepartmentGenerator")
+	private String deptId;
+	
+}

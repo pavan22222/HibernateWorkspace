@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+
+	<class name="com.infinite.entity.Patient">
+		<id name="patientId" column="patient_id">
+			<generator class="sequence">
+				<param name="sequence_name">Patinet_Id</param>
+			</generator>
+		</id>
+		<property name="name"></property>
+		<set name="doctors" cascade="all" inverse="true" table="DOCTORS_PATIENTS" fetch="join">
+			<key column="patient_id"></key>
+			<many-to-many class="com.infinite.entity.Doctor" column="doctor_id">
+			</many-to-many>
+		</set>
+	
+	</class>
+
+
+
+</hibernate-mapping>

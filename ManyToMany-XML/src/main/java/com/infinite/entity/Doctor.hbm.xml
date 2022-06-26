@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+
+	<class name="com.infinite.entity.Doctor">
+	
+		<id name="doctorId" column="doctor_id">
+			<generator class="sequence">
+				<param name="sequence_name">doctor_id</param>
+			</generator>
+		</id>
+		
+		<property name="name" length="20"></property>
+		<idbag name="patients" table="DOCTORS_PATIENTS"  cascade="all" >
+			<collection-id type="int" column="relationid">
+				<generator class="increment"></generator>
+			</collection-id>	
+			<key column="doctor_id"></key>
+			<many-to-many class="com.infinite.entity.Patient" column="patient_id"></many-to-many>
+		
+		</idbag>
+	
+	</class>
+
+</hibernate-mapping>
